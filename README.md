@@ -30,4 +30,4 @@ Then the folder to store the result is created  in **/public/images/dzi/** with 
 Next the tiles are generated with the **vips_dzsave()** function. If this process is successful a thumbnail will be created as well.
 
 ## Finally
-Now you can use this tiles to view your PDF with [leaflet](https://leafletjs.com/) for example or any tools using deep_zoom..
+Now you can use this tiles to view your PDF with [leaflet](https://leafletjs.com/) for example or any tools using Deep Zoom concept.
