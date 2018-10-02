@@ -1,6 +1,8 @@
 # PDF_DeepZoom
 Welcome to **PDF_DeepZoom** utility.
 This tool, writtten in **C**, allows you to create a set of tiles at various resolutions from a **PDF** file using the [C api from the libvips project](http://libvips.github.io/libvips/API/current/using-from-c.html).
+This code use libvips v8.6.3. 
+The version v8.7 is now using the PDF loader based on Google’s PDFium project which is not implemented in this code.
 
 # Build
 In order to compile and execute this tool you need to install libvips with PDF support. You'll find the steps at the [project install webpage](http://libvips.github.io/libvips/install.html).
