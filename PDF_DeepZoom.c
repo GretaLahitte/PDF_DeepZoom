@@ -1,4 +1,7 @@
-/* 		Save a PDF file as a set of tiles at various resolutions with libvips. 
+/* 		
+ *		PDF_DeepZoom
+ *
+ *		Save a PDF file as a set of tiles at various resolutions with libvips. 
  * 		compile with:
  *		gcc -g -Wall -o PDF_DeepZoom PDF_DeepZoom.c `pkg-config vips --cflags --libs`
  * 		usage: ./PDF_DeepZoom pdfFile outputFolder
