@@ -6,6 +6,8 @@ This tool, writtten in **C**, allows you to create a set of tiles at various res
 In order to compile and execute this tool you need to install libvips with PDF support. You'll find the steps at the [project install webpage](http://libvips.github.io/libvips/install.html).
 Make sure to have this lines during the configure step:
 >PDF import with poppler - glib : yes
+
+and
 >image pyramid export : yes
 
 # Usage
