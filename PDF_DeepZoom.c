@@ -8,17 +8,13 @@
  * 		with pdfFile the pdf you want to process ant outputFolder the folder name where to store the result
  * 
  * 		by M.LAHITTE  02/10/2018
+ * 		Special thanks to Mathieu Dorville!
  */
 
 #include <stdio.h>
 #include <vips/vips.h>
 #include <unistd.h>
 #include <stdlib.h>
-
-int mat_len(char *s) 
-{ 
-	int i = 0; while(s[i]) i++; return i; 
-}
 
 int main( int argc, char **argv )
 {
