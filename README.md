@@ -16,7 +16,7 @@ Make sure to have this lines during the configure step:
 # Usage
 To run this code you must have this folder **/public/images/dzi/** at the root of your working folder. Feel free to adapt the code to fit your needs!
 You can compile the code with this line:
->$ gcc -g -Wall -o PDF_DeepZoom PDF_DeepZoom.c \`pkg-config vips --cflags --libs\`
+>$ gcc -Wall -o PDF_DeepZoom PDF_DeepZoom.c \`pkg-config vips --cflags --libs\`
 
 And run it with:
 >$ ./PDF_DeepZoom pdfFile outputFolder
