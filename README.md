@@ -33,3 +33,6 @@ Next the tiles are generated with the **vips_dzsave()** function. If this proces
 
 ## Finally
 Now you can use this tiles to view your PDF with [leaflet](https://leafletjs.com/) for example or any tools using Deep Zoom concept.
+
+# Thanks
+A special thanks to Mathieu Dorville for his help understanding the C langage.
